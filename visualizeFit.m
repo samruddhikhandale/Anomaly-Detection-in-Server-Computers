@@ -3,7 +3,7 @@ function visualizeFit(X, mu, sigma2)
 %   VISUALIZEFIT(X, p, mu, sigma2) This visualization shows you the 
 %   probability density function of the Gaussian distribution. Each example
 %   has a location (x1, x2) that depends on its feature values.
-%
+% testtest123
 
 [X1,X2] = meshgrid(0:.5:35); 
 Z = multivariateGaussian([X1(:) X2(:)],mu,sigma2);
